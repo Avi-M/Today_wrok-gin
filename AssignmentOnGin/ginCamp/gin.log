@@ -1,0 +1,24 @@
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /css/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (1 handlers)
+[GIN-debug] HEAD   /css/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (1 handlers)
+[GIN-debug] Loaded HTML Templates (4): 
+	- header.html
+	- index.html
+	- 
+	- footer.html
+
+[GIN-debug] GET    /api/getvideos            --> main.main.func1 (5 handlers)
+[GIN-debug] POST   /api/postvideos           --> main.main.func2 (5 handlers)
+[GIN-debug] GET    /view/videos              --> ginCamp/controller.VideoController.ShowAll-fm (5 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+::1 - [Tue, 08 Dec 2020 10:12:01 IST] "POST /api/postvideos HTTP/1.1 200 29.9205ms "PostmanRuntime/7.26.8" "
+::1 - [Tue, 08 Dec 2020 10:12:12 IST] "GET /api/getvideos HTTP/1.1 200 30.8958ms "PostmanRuntime/7.26.8" "
+::1 - [Tue, 08 Dec 2020 10:12:18 IST] "GET /view/videos HTTP/1.1 200 35.8585ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.27 Safari/537.36" "
+::1 - [Tue, 08 Dec 2020 10:12:35 IST] "GET /favicon.ico HTTP/1.1 404 113.6952ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.27 Safari/537.36" "
+::1 - [Tue, 08 Dec 2020 10:13:25 IST] "GET /api/getvideos HTTP/1.1 200 31.0125ms "PostmanRuntime/7.26.8" "
+::1 - [Tue, 08 Dec 2020 10:13:39 IST] "POST /api/postvideos HTTP/1.1 200 34.9062ms "PostmanRuntime/7.26.8" "
+::1 - [Tue, 08 Dec 2020 10:13:44 IST] "GET /view/videos HTTP/1.1 200 42.819ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.27 Safari/537.36" "
+::1 - [Tue, 08 Dec 2020 10:13:57 IST] "GET /favicon.ico HTTP/1.1 404 24.9367ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.27 Safari/537.36" "
